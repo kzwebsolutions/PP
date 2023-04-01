@@ -301,7 +301,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 		.row > * {
@@ -541,7 +541,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -786,7 +786,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1031,7 +1031,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1276,7 +1276,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1343,7 +1343,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-small {
-					width: 33.33333%;
+					width: 100%;
 				}
 
 				.row > .off-4-small {
@@ -1521,10 +1521,10 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.row {
-				display: flex;
-				flex-wrap: wrap;
-				box-sizing: border-box;
-				align-items: stretch;
+				display: block;
+				width: 100%;
+				
+				align-items: center;
 			}
 
 				.row > * {
@@ -1587,8 +1587,8 @@ input, select, textarea {
 					margin-left: 25%;
 				}
 
-				.row > .col-4-xsmall {
-					width: 33.33333%;
+				.row > .col-4 {
+					width: 100%;
 				}
 
 				.row > .off-4-xsmall {
@@ -2171,7 +2171,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 30%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
